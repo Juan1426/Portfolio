@@ -1,0 +1,31 @@
+
+header{
+    width: 100%;
+    min-width: 5rem;
+    background-color: rgb(42, 42, 42);
+
+    padding: 1em 2em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    background: rgb(42, 42, 42);
+}
+header nav{}
+header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    padding: 0.5rem 1rem;
+    margin: 0 1em
+}
+
+.navlink_item{
+    color: lightgrey;
+}
