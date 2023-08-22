@@ -1,8 +1,9 @@
-import './App.css';
 import {Home} from './pages/Home/Home';
 import {Footer} from './components/Footer/Footer';
 import {Navbar} from "./components/Navbar/Navbar"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import "./app.css"
+import "./styles/styles.scss"
 
 function App() {
   return (

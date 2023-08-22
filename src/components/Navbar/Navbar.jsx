@@ -1,20 +1,26 @@
 import React from "react";
-import "./Navbar.css"
-
+import gitHub from "../../resources/icons/github-2.png"
+import linkedIn from "../../resources/icons/linkedin.png"
+import { Link } from "react-router-dom";
 export const  Navbar=()=>{
     return(
-        <div className="nav_container">
-            <nav className="nav">
-                <div className="nav_logo">
-                    <h2>JC</h2>
-                </div>
-                <div className="nav_links">
-                    <h2>Github</h2>
-                    <h2>LinkedIn</h2>
-                </div>
-            </nav> 
-        </div>
-       
+        <header className="header">
+            <div className="logo">
+                <h2>
+                    JC
+                </h2>
+                
+            </div>
+            <div className="links">
+                <Link to={"https://github.com/Juan1426"} className="link-item">
+                    <img src={gitHub} alt="gitHub logo" className="link-icon"/>
+                </Link>
+                <Link to={"https://www.linkedin.com/in/juan-cruz-caro-011582127/"}className="link-item">
+                    <img src={linkedIn} alt=" loco linkedin" className="link-icon"/>
+                </Link>
+            </div>
+        </header>
+
     )
 }
 

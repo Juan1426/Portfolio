@@ -1,0 +1,35 @@
+//Common
+$color-1:#23295a;
+$background-color-1:  #172a38;
+$background-color-2:  #0e1b24;
+
+//Medidas
+@mixin medida-standar(){
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+@mixin barras(){
+    width: 100wv;
+    height: 80px;
+    background-color: $color-1;  
+}
+
+@mixin space-arround(){
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    height: 100%;
+}
+
+//Font
+@mixin big-font-1(){
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
