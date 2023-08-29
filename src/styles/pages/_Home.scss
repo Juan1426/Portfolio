@@ -5,7 +5,7 @@
     min-height: 400px;
     text-align: center;
 
-    .main-container{
+    .main_container{
         max-width: 1280px;
         margin: 0 auto;
 
@@ -14,29 +14,40 @@
             }
 
             .description{
-                //padding-left: 15px;
-                //border-left: solid 2px white;
                 text-align: justify;
             }
-        .proyects{
-            div{
+        .projects{
+            .title_projects{
                 display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
                 justify-content: center;
-                .title-projects{
-                    margin-top: 35px;
-                    font-size: 32px;
+                margin: 40px 0;
+                h2, p{
+                    margin: 0;
+                }
+            } 
+           .projects_container{
+                list-style: none;
+                padding: 0;
+                .proyect_row{
+                    margin: 50px 0;
+                    .proyect_row-img{                      
+                        height: 200px;
+                        width: 300px;
+                        background-color: white;
+                        margin: 20px auto
+                    }
+                    .proyect_row-link{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 24px;                             
+                    }
+                    .proyect_row-desc{
+                        margin-top:20px ;
+                    }
+                }
 
-            }
-           
-           } 
-           .proyects-list{
-            list-style: none;
-            padding: 0;
-            .proyect{
-                text-decoration: none;
-                color: white;
-                font-size: 18px;
-            }
            }
         }
     }
