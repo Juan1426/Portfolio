@@ -1,10 +1,6 @@
 body{
     font-family: 'Source Sans 3', sans-serif;
-    color: white;
     margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #000b13da;
+    box-sizing: border-box;   
     ;
-
 }

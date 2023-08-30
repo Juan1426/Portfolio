@@ -12,11 +12,12 @@ export const  Home = () => {
                     <div className="description">
                         <span>My name is Juan, I'm a front-end developer based on Buenos Aires, Argentina.I'm passionate about cutting-edge, beutiful interfaces and intuitively designs.</span>                       
                     </div>    
-                </section>                 
+                </section>      
+
                 <section className="about">
                     <div className="about_container">
                         <div className="about_title">
-                            <h2>About Me</h2>
+                            <h2 className="title" >About Me</h2>
                         </div>
                         <div className="about_description">
                             <p className="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique dolorem quod non, excepturi cum ipsum. Tempora, harum, laudantium totam impedit illo laborum distinctio maxime quidem doloribus dicta ex quas!</p>
@@ -28,7 +29,7 @@ export const  Home = () => {
                     
                 <section id="projects" className="projects">    
                     <div className="title_projects">
-                        <h2 className="title ">Projects</h2>    
+                        <h2 className="title">Projects</h2>    
                         <p>Here you will found some of my personal work.</p>    
                     </div>
                     <div className="projects_container">
@@ -51,7 +52,7 @@ export const  Home = () => {
 
                 <section className="contact" id="contact">
                     <div className="contact_hero">
-
+                        <h2>Contact</h2>
                     </div>
                     <div className="contact_form-container">
                         <form action="" method="post" className="contact_form">
@@ -68,8 +69,8 @@ export const  Home = () => {
                                 <input required placeholder="Enter Your Email" type="text" className="contact_form-input" />
                             </div>
                             <div className="contact_form-field">
-                                <label htmlFor="">Messeage</label>
-                                <textarea name="" id="" cols="30" rows="10" className="contact_form-input"></textarea>
+                                <label htmlFor="" className="contact_form-label">Messeage</label>
+                                <textarea name="" id="" cols="30" rows="10" className="textarea"></textarea>
                             </div>
                            <button type="submit">Submit</button>
                         </form>

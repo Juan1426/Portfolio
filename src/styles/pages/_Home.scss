@@ -5,17 +5,19 @@
     min-height: 400px;
     text-align: center;
 
+    .title{
+        font-size: 36px;
+    }
+
+    .description{
+        text-align: justify;
+    }
+
     .main_container{
         max-width: 1280px;
         margin: 0 auto;
 
-            .name{
-                font-size: 36px;
-            }
-
-            .description{
-                text-align: justify;
-            }
+        
         .projects{
             .title_projects{
                 display: flex;
@@ -35,7 +37,7 @@
                     .proyect_row-img{                      
                         height: 200px;
                         width: 300px;
-                        background-color: white;
+                        background-color: darkslateblue;
                         margin: 20px auto
                     }
                     .proyect_row-link{
@@ -48,7 +50,39 @@
                     }
                 }
 
-           }
+            }
+        }
+        .contact{
+            .contact_form-container{
+                background-color: coral;
+                
+                .contact_form-field{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    margin: 0 auto;
+
+                    .contact_form-label{
+                        text-align: start;
+                        margin-top: 10px;
+                    }
+                    .contact_form-input{
+                        height: 36px;
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                    .textarea{
+                        
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                    
+                }
+                
+
+            }
         }
     }
 }
