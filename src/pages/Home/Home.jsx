@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export const  Home = () => {
     return(
         <div className="main">
-            <main id="main" className="main_container">      
+            <main className="main_container">   
                 <section className="home-hero">
                     <div className="title title-juan">
                         <h2 className="name">Welcome! I'm Juan, Frontend Developer</h2>
                     </div>
                     <div className="description">
-                        <span>My name is Juan, I'm a front-end developer based on Buenos Aires, Argentina.I'm passionate about cutting-edge, beutiful interfaces and intuitively designs.</span>                       
+                        <p>My name is Juan, I'm a front-end developer based on Buenos Aires, Argentina.I'm passionate about cutting-edge, beutiful interfaces and intuitively designs.</p>                       
                     </div>    
                 </section>      
 
@@ -22,7 +22,7 @@ export const  Home = () => {
                         <div className="about_description">
                             <p className="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique dolorem quod non, excepturi cum ipsum. Tempora, harum, laudantium totam impedit illo laborum distinctio maxime quidem doloribus dicta ex quas!</p>
                             <p className="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique dolorem quod non, excepturi cum ipsum. Tempora, harum, laudantium totam impedit illo laborum distinctio maxime quidem doloribus dicta ex quas!</p>
-                            <p className="main_text"></p>               
+                                      
                         </div>
                     </div>                   
                 </section>
@@ -37,14 +37,15 @@ export const  Home = () => {
                             <div className="proyect_row-img">#img</div>
                             <Link to={"https://github.com/Juan1426/Pokedex/tree/master"} className="proyect_row-link">Pokedex </Link>
                             <div className="proyect_row-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
+                                
                             </div>
                         </div>
                         <div className="proyect_row">
                             <div className="proyect_row-img">#img</div>
                             <Link to={"https://github.com/Juan1426/DiscoLobo"} className="proyect_row-link">Disco Lobo</Link>
                             <div className="proyect_row-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
                             </div>
                         </div>                
                     </div>     
@@ -58,21 +59,21 @@ export const  Home = () => {
                         <form action="" method="post" className="contact_form">
                             <div className="contact_form-field">
                                 <label className="contact_form-label" htmlFor="">Name</label>
-                                <input required placeholder="Enter Your Name..." type="text" className="contact_form-input" />
+                                <input required placeholder="    Enter Your Name..." type="text" className="contact_form-input" />
                             </div>
                             <div className="contact_form-field">
                                 <label htmlFor="" className="contact_form-label">Email</label>
-                                <input required placeholder="Enter Your Email" type="text" className="contact_form-input" />
+                                <input required placeholder="    Enter Your Email" type="text" className="contact_form-input" />
                             </div>
                             <div className="contact_form-field">
                                 <label htmlFor="" className="contact_form-label">Email</label>
-                                <input required placeholder="Enter Your Email" type="text" className="contact_form-input" />
+                                <input required placeholder="    Enter Your Email" type="text" className="contact_form-input" />
                             </div>
                             <div className="contact_form-field">
                                 <label htmlFor="" className="contact_form-label">Messeage</label>
-                                <textarea name="" id="" cols="30" rows="10" className="textarea"></textarea>
+                                <textarea name="" id="" cols="30" rows="10" className ="textarea" placeholder="  Enter you message..."></textarea>
                             </div>
-                           <button type="submit">Submit</button>
+                            <button className="btn_contact" type="submit">SUBMIT</button>
                         </form>
                     </div>
                 </section>
@@ -80,5 +81,3 @@ export const  Home = () => {
         </div>
     )
 }
-
-//
