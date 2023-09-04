@@ -6,10 +6,7 @@ export const  Navbar=()=>{
     return(
         <header className="header">
             <div className="logo">
-                <h2>
-                    JC
-                </h2>
-                
+                <h2>Juan Cruz Caro</h2>              
             </div>
             <div className="links">
                 <Link to={"https://github.com/Juan1426"} className="link-item">

@@ -1,9 +1,5 @@
 body{
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     box-sizing: border-box;   
-}
-
-p{
-    line-height: 26px;
 }
