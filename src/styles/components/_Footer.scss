@@ -1,3 +1,38 @@
-.footer_container{
-
+.footer{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    width: 100%;
+    .footer_container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 20px;    
+        .footer_social{
+            h2{
+                font-family: 'Inter', sans-serif;
+                color: white;
+                text-transform: uppercase;
+            }
+            .footer_icons{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                .link_item{           
+                    .link_icon{
+                        padding: 10px 20px 10px 0;
+                        height: 22px;
+                    }
+                }
+            }
+        }                      
+        .footer_mail{
+            padding-top: 20px;
+            h2{
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+        }
+    }
 }

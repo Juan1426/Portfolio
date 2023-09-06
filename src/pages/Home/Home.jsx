@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const  Home = () => {
+
+    let mail = "mailto:juancruzzcaro@hotmail.com?subject=Ofer inquiry&cc=suport@company.com&bcc=info@company.com&body=Hi, I would like to learn more about the offer"
+
     return(
         <div className="main">
             <main className="main_container">   
@@ -32,7 +35,7 @@ export const  Home = () => {
                                 <h2 className="skill_item">JavaScript</h2>
                                 <h2 className="skill_item">BootsStrap</h2>
                                 <h2 className="skill_item">Responsive</h2>
-                                <h2 className="skill_item">HTML</h2>
+                                <h2 className="skill_item">NodeJs</h2>
                                 <h2 className="skill_item">HTML</h2>
                             </div>
                         </div>
@@ -66,6 +69,12 @@ export const  Home = () => {
                 <section className="contact" id="contact">
                     <div className="contact_hero">
                         <h2 className="title">Contact</h2>
+                    </div>
+                    <div className="contact-container">
+                       <span>Feel free to contact me on any social media</span>
+                       <h2 className="contact_item">Send me a mail <Link className="contact-link" to={mail}>here</Link></h2>
+                       <h2 className="contact_item">My <Link className="contact-link" to={"https://www.linkedin.com/in/juan-cruz-caro-011582127/"}>LinkedIn</Link></h2>
+                       <h2 className="contact_item">Check my <Link className="contact-link" to={"https://github.com/Juan1426"} >GitHub</Link> and see what I'm working on</h2>
                     </div>
                     <div className="contact_form-container">
                         <form id="form" action="*" method="post" className="contact_form">

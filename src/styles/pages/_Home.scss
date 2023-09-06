@@ -99,16 +99,32 @@
 
             }
         }
-        .contact{
-            padding: 30px;
-            
+        .contact{          
+            padding: 30px;         
             .contact_hero{
                 h2{
                     @include primary-title;
                     margin-bottom: 30px;
                 }
             }
+            .contact-container{
+                text-align: left;
+                font-family: 'Inter', sans-serif;
+                font-weight: 200;
+                .contact_item{
+                    font-size: 14px;
+                    
+                    color: black;
+                    .contact-link{
+
+                        color: black;
+                        font-weight: bolder;
+                    }
+                    
+                }
+            }
             .contact_form-container{       
+                display: none;
                 background-color: white;
                 
                 border-radius: 5px;
