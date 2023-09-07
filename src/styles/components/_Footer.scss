@@ -4,15 +4,17 @@
     width: 100%;
     .footer_container{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        flex-direction: column;
         padding: 30px 20px;    
         .footer_social{
             h2{
                 font-family: 'Inter', sans-serif;
-                color: white;
+                font-size: 18px;
                 text-transform: uppercase;
+                color: white;
             }
-            .footer_icons{
+            .footer_social-icons{
                 list-style: none;
                 display: flex;
                 align-items: center;
@@ -23,15 +25,25 @@
                     }
                 }
             }
-        }                      
-        .footer_mail{
-            padding-top: 20px;
+            .footer_social-mail{
+                h2{
+                    display: none;
+                    @include thirth-title
+                }
+            }
+        }   
+        .footer_description{
+            padding-top: 25px;
             h2{
                 font-family: 'Inter', sans-serif;
-                font-size: 12px;
-                
+                font-size: 18px;
                 text-transform: uppercase;
-                letter-spacing: 3px;
+                color: white;
+            }
+            p{
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;             
+                letter-spacing: 2.5px;
             }
         }
     }

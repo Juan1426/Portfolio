@@ -9,27 +9,27 @@ export const Footer=()=>{
     return(
         <footer className="footer">
             <div className="footer_container">     
-
                 <div className="footer_social">
                     <h2>Social</h2>
-                    <div className="footer_icons">
+                    <div className="footer_social-icons">
                         <Link to={"https://github.com/Juan1426"} className="link_item">
                             <img src={gitHub} alt="gitHub logo" className="link_icon"/>
                         </Link>
                         <Link to={"https://www.linkedin.com/in/juan-cruz-caro-011582127/"}className="link_item">
-                            <img src={linkedIn} alt=" loco linkedin" className="link_icon"/>
+                            <img src={linkedIn} alt=" logo linkedin" className="link_icon"/>
                         </Link>
                         <Link to={"mailto:juancruzzcaro@hotmail.com?subject=Ofer inquiry&cc=suport@company.com&bcc=info@company.com&body=Hi, I would like to learn more about the offer"} className="link_item">
                             <img src={mail} alt="gmail logo" className="link_icon"/>
                         </Link>
                     </div>
-                </div>  
-                <br />
-                <div className="footer_mail">
-                    <h2>Juan Cruz Caro</h2>
-                    <br />
-                    <h2>juancruzzcaro@hotmail.com</h2>
+                    <div className="footer_social-mail">
+                        <h2>juancruzzcaro@hotmail.com</h2>                   
+                    </div>
                 </div>
+                <div className="footer_description">
+                    <h2>Juan Cruz Caro</h2> 
+                    <p>A Frontend Developer focused on Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>     
                 
             </div>
         </footer>

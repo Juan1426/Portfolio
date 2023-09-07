@@ -19,6 +19,14 @@
                 text-align: justify;
                 padding: 10px 0;
             }  
+            .underline_container{
+                display: flex;
+                justify-content: center;
+                .underline{
+                    @include title-underline
+                }
+            }
+            
         }
 
         .about{
@@ -28,6 +36,13 @@
                     h2{
                         @include secondary-title
                     }
+                    .underline_container{
+                        @include underline-container;
+                        .underline{
+                            @include title-underline
+                        }
+                    }
+                    
                 }
                 .about_description{
                     .main_text{
@@ -40,11 +55,18 @@
                     padding: 10px 20px;
                     h2{
                         @include secondary-title;
-                        padding-bottom: 20px;
+            
+                    }
+                    .underline_container{
+                        @include underline-container;
+                        .underline{
+                            @include title-underline
+                        }
                     }
                     .skills_list{
                         display: flex;
                         flex-wrap: wrap;
+                        padding-top: 20px;
                         .skill_item{
                             font-size: 16px;
                             background-color: coral;

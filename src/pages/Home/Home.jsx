@@ -14,13 +14,17 @@ export const  Home = () => {
                     </div>
                     <div className="description">
                         <p>I'm a front-end developer based on Buenos Aires, Argentina.I'm passionate about cutting-edge, beutiful interfaces and intuitively designs.</p>                       
-                    </div>    
+                    </div>                        
                 </section>      
 
                 <section className="about">
                     <div className="about_container">
                         <div className="about_title">
-                            <h2 >About Me</h2>
+                            <h2>About Me</h2>
+                            <div className="underline_container">
+                                <div className="underline"></div>
+                            </div>
+                            
                         </div>
                         <div className="about_description">
                             <p className="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique dolorem quod non, excepturi cum ipsum. Tempora, harum, laudantium totam impedit illo laborum distinctio maxime quidem doloribus dicta ex quas!</p>
@@ -28,6 +32,9 @@ export const  Home = () => {
                         </div>
                         <div className="about_skills-container">
                             <h2>My Skill list</h2>
+                            <div className="underline_container">
+                                <div className="underline"></div>
+                            </div>
                             <div className="skills_list">
                                 <h2 className="skill_item">HTML</h2>
                                 <h2 className="skill_item">SASS</h2>
@@ -36,7 +43,7 @@ export const  Home = () => {
                                 <h2 className="skill_item">BootsStrap</h2>
                                 <h2 className="skill_item">Responsive</h2>
                                 <h2 className="skill_item">NodeJs</h2>
-                                <h2 className="skill_item">HTML</h2>
+                                <h2 className="skill_item">SQL</h2>
                             </div>
                         </div>
                     </div>                   

@@ -21,26 +21,23 @@ $background-color-2:  #0e1b24;
     margin: 0;
 }
 
-@mixin barras(){
-    width: 100wv;
-    height: 80px;
-    background-color: $color-1;  
+@mixin thirth-title(){
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;             
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 
-@mixin space-arround(){
+@mixin underline-container(){
+    padding-top: 5px;
     display: flex;
-    justify-content: space-around;    
-    align-items: center;
-    height: 100%;
+    justify-content: center;
 }
 
-//Font
-@mixin big-font-1(){
-    font-size: 32px;
-    color: white;
-    font-weight: bolder;
+@mixin title-underline(){
+    height: 5px;
+    width: 40px;
+    background-color: coral;
+    border-radius: 2.5px;
 }
-
-
-
 
