@@ -57,7 +57,7 @@ export const  Home = () => {
                     <div className="projects_container">
                         <div className="proyect_row">
                             <div className="proyect_row-img">#img</div>
-                            <Link to={"https://github.com/Juan1426/Pokedex/tree/master"} className="proyect_row-link">Pokedex </Link>
+                            <Link to={"https://github.com/Juan1426/Pokedex/tree/master"} className="proyect_row-link">Pokedex</Link>
                             <div className="proyect_row-desc">
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
                                 

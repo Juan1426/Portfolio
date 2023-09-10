@@ -16,6 +16,7 @@
                 }
             }
             .description{
+                font-size: 1rem;
                 text-align: justify;
                 padding: 10px 0;
             }  
@@ -112,7 +113,10 @@
                     .proyect_row-link{
                         text-decoration: none;
                         @include secondary-title;
-                                            
+                        :hover{
+                            
+                        }
+
                     }
                     .proyect_row-desc{
                         margin-top:20px ;
