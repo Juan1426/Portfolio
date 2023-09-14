@@ -6,8 +6,8 @@
     text-align: center;
     .main_container{
         max-width: 1280px;
-        margin: 0 auto;
-        
+        margin: 0 auto;    
+//Home Hero
         .home_hero{
             padding: 80px 20px 30px 20px;    
             .title-juan{
@@ -27,9 +27,8 @@
                     @include title-underline
                 }
             }
-            
         }
-
+//About        
         .about{
             padding-bottom: 30px;
             .about_container{
@@ -81,7 +80,7 @@
                 }
             }
         }
-
+//Projects
         .projects{
             padding: 20px 0;
             .title_projects{
@@ -103,6 +102,7 @@
                 list-style: none;
                 padding: 0;
                 .proyect_row{
+                    display: grid;
                     margin: 50px 0;
                     .proyect_row-img{                      
                         height: 200px;
@@ -125,6 +125,7 @@
 
             }
         }
+//Contact        
         .contact{          
             padding: 30px;         
             .contact_hero{
