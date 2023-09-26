@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import fondo from "../../img/fondo_azul.jpeg"
 
 export const  Home = () => {
 
@@ -19,7 +20,7 @@ export const  Home = () => {
 
                 <section className="about">
                     <div className="about_container">
-                        <div className="about_title">
+                        <div id="about" className="about_title">
                             <h2>About Me</h2>
                             <div className="underline_container">
                                 <div className="underline"></div>
@@ -56,18 +57,21 @@ export const  Home = () => {
                     </div>
                     <div className="projects_container">
                         <div className="proyect_row">
-                            <div className="proyect_row-img">#img</div>
-                            <Link to={"https://github.com/Juan1426/Pokedex/tree/master"} className="proyect_row-link">Pokedex</Link>
-                            <div className="proyect_row-desc">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
-                                
+                            <div className="proyect_row-img">
+                                <img src={fondo} alt="" />    
+                            </div>     
+                            <Link to={"https://github.com/Juan1426/Pokedex/tree/master"} className="proyect_link">Pokedex</Link>                      
+                            <div className="proyect_row-desc">                  
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>                               
                             </div>
                         </div>
                         <div className="proyect_row">
-                            <div className="proyect_row-img">#img</div>
-                            <Link to={"https://github.com/Juan1426/DiscoLobo"} className="proyect_row-link">Disco Lobo</Link>
-                            <div className="proyect_row-desc">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
+                        <div className="proyect_row-img">
+                                <img src={fondo} alt="" />    
+                            </div>
+                            <Link to={"https://github.com/Juan1426/DiscoLobo"} className="proyect_link">Disco Lobo</Link>
+                            <div className="proyect_row-desc">                                
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat fuga ea obcaecati molestiae aperiam quibusdam atque voluptate optio nulla iste!</p>
                             </div>
                         </div>                
                     </div>     

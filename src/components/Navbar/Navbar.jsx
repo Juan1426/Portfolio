@@ -11,6 +11,9 @@ export const  Navbar=()=>{
                     <h2 className="logo_name-short">JC</h2>
                     <h2 className="logo_name-large">Juan Cruz Caro</h2>              
                 </div>
+                <div>
+                    <Link to={"../#contact"}>About</Link>
+                </div>
                 <div className="navbar_icons">
                     <Link to={"https://github.com/Juan1426"} className="link_item">
                         <img src={gitHub} alt="gitHub logo" className="link_icon"/>

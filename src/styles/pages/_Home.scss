@@ -5,7 +5,7 @@
     background-color: rgba(243,243,243);
     text-align: center;
     .main_container{
-        max-width: 1280px;
+        max-width: 120rem;
         margin: 0 auto;    
 //Home Hero
         .home_hero{
@@ -103,23 +103,31 @@
                 padding: 0;
                 .proyect_row{
                     display: grid;
+                    grid-template-columns: 1fr;
                     margin: 50px 0;
-                    .proyect_row-img{                      
-                        height: 200px;
-                        width: 300px;
-                        background-color: darkslateblue;
-                        margin: 20px auto
+                    gap: 10px 30px;
+                    justify-content: center;
+                    .proyect_row-img{      
+                        padding: 0 30px;                                     
+                       img{
+                        width: 100%;                     
+                       }
+                       @media (min-width:600px) {
+                        grid-column: 1/2;
+                        grid-row: 1/3;
                     }
-                    .proyect_row-link{
+                    }     
+                    .proyect_link{
                         text-decoration: none;
-                        @include secondary-title;
-                        :hover{
-                            
-                        }
-
-                    }
+                        @include secondary-title;                    
+                    }             
                     .proyect_row-desc{
                         margin-top:20px ;
+                       
+                       
+                    }
+                    @media (min-width:600px) {
+                        grid-template-columns: 3fr 2fr;
                     }
                 }
 
